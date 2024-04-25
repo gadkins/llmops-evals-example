@@ -1,6 +1,6 @@
 # Automated LLM Evals with CircleCI
 
-This repo, along with [this notebook (graysonadkins.com)](graysonadkins.com/notebooks/evals/automated-llm-evals-with-circleci), demonstrate how to configure automated evals of language models using LangChain and CirclCI pipelines.
+This repo, along with [this notebook (graysonadkins.com)](graysonadkins.com/notebooks/evals/automated-llm-evals-with-circleci), demonstrate how to configure automated evals of language models using CirclCI pipelines. The notebook also explores prompt engineering to detect hallucinations using LangChain.
 
 The repository consists of  
 
