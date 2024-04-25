@@ -10,7 +10,7 @@ quiz_bank = """1. Subject: Leonardo DaVinci
     - Painted the Mona Lisa
     - Studied zoology, anatomy, geology, optics
     - Designed a flying machine
-  
+
 2. Subject: Paris
    Categories: Art, Geography
    Facts:
@@ -56,7 +56,7 @@ Step 2:{delimiter} Determine the subjects to generate questions about. The list 
 
 {quiz_bank}
 
-Pick up to two subjects that fit the user's category. 
+Pick up to two subjects that fit the user's category.
 
 Step 3:{delimiter} Generate a quiz for the user. Based on the selected subjects generate 3 questions for the user using the facts about the subject.
 
@@ -69,6 +69,7 @@ Question 3:{delimiter} <question 3>
 
 Additional rules:
 
+- Only include questions from information in the quiz bank. Students only know answers to questions from the quiz bank, do not ask them about other topics.
 - Only use explicit matches for the category, if the category is not an exact match to categories in the quiz bank, answer that you do not have information.
 - If the user asks a question about a subject you do not have information about in the quiz bank, answer "I'm sorry I do not have information about that".
 """
